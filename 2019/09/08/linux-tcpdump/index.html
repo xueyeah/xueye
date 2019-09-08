@@ -43,7 +43,7 @@
 </li>
 </ol>
 <h4 id="使用Wireshark分析数据包"><a href="#使用Wireshark分析数据包" class="headerlink" title="使用Wireshark分析数据包"></a>使用Wireshark分析数据包</h4><p>下图中标注出三快区域，R1区域用来显示简单的数据包信息，用tcpdump抓包的时候，默认情况下也是显示成这样的；R2区域用来显示选中的数据包的详细信息，按照TCP/IP四层结构显示，第一行是数据链路层的信息，第二行是网络层信息（IP协议），第三行是传输层信息（TCP协议），第四行是应用层信息（HTTP协议），可以展开每一行用来观察具体的内容；R3区域是用来显示此数据包的真实面目。在R1和R2区域看到的信息都是Wireshark整理以后的，抓包的真实数据实际上是一堆二进制序列。</p>
-<p><img src="/xueye/.io//wireshark.jpg" alt></p>
+<p>​                    <img src="/xueye/2019/09/08/linux-tcpdump/wireshark.jpg" title="wireshark picture"></p>
 <h5 id="常用举例：-1"><a href="#常用举例：-1" class="headerlink" title="常用举例："></a>常用举例：</h5><ol>
 <li>过滤IP，如来源IP或者目标IP等于某个IP</li>
 </ol>
